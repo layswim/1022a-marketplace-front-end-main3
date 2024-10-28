@@ -24,7 +24,7 @@ function App() {
   const [usuarios, setUsuarios] = useState<UserType[]>([]);
 
   useEffect(() => {
-    setNome("Guilherme Terenciani")
+    setNome("")
     
     fetch("https://one022a-marketplace-001o.onrender.com/produtos")
       .then(resposta => resposta.json())
@@ -38,7 +38,7 @@ function App() {
   return (
     <>
       <h1 className="app-title">Cadastro de produtos e usuários</h1>
-      <p>Bem-vindo, {nome}!</p> {""}
+      <p> {nome}!</p> {""}
       <div className="main-container">
         <div className="produtos-container">
           <h2 className="section-header">Produtos</h2> 
