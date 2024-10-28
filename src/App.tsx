@@ -38,7 +38,7 @@ function App() {
   return (
     <>
       <h1 className="app-title">Cadastro de produtos e usuários</h1>
-      <p>Bem-vindo, {nome}!</p> {"Guilherme"}
+      <p>Bem-vindo, {nome}!</p> {""}
       <div className="main-container">
         <div className="produtos-container">
           <h2 className="section-header">Produtos</h2> 
